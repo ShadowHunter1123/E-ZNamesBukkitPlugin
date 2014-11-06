@@ -12,12 +12,13 @@ import com.shadow.eznames.utils.NameUtils;
 import com.shadow.eznames.utils.PrefixAndSuffixUtils;
 
 public class EasyCommands implements CommandExecutor{
-
+    //Yes I know there are a lot of easier ways to do this, and a lot of useless crap
+	//But I was a nub when I started this
+	//and when I got back to finish it was easier to copy and paste
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 	String bracketmessage = "Added bracket tag to player ";
-	String parmessage = "Added parentheses tag to player ";
-	String nopermmsg =  ChatColor.RED + "You do not have permission to use that command.";
+	
 	String cbracketmessage = "Added curly bracket tag to player ";
 	//such if statement much stuff
  
